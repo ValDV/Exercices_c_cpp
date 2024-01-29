@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int puissance(int x, int y) {
-	int resultat = pow(x, y);
+int puissance(int A, int B) {
+	int resultat = pow(A, B);
 	return resultat;
 }
 
 int main() {
-	int x, y;
-	scanf("%d", &x);
-	scanf("%d", &y);
-	printf("%d", puissance(x, y));
+	int A, B;
+	scanf("%d", &A);
+	scanf("%d", &B);
+	printf("%d", puissance(A, B));
 }
