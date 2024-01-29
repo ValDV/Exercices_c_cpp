@@ -1,21 +1,21 @@
 //Ecrire une fonction qui calcule le pgcd de deux nombres initialisés dans le programme principal par l'utilisateur
 #include <stdio.h>
-int fonction(int V1, int V2) {
-    while (V2 != 0) {
-        int mémoire = V2;
-        V2 = V1 % V2;
-        V1 = mémoire;
+int fonction(int v1, int v2) {
+    while (v2 != 0) {
+        int mémoire = v2;
+        v2 = v1 % v2;
+        v1 = mémoire;
     }
-    return V1;
+    return v1;
 }
 
 int main() {
-    int V1, V2;
-    scanf("%d", &V1);
-    scanf("%d", &V2);
-    int pgcd = fonction(V1, V2);
+    int v1, v2;
+    scanf("%d", &v1);
+    scanf("%d", &v2);
+    int pgcd = fonction(v1, v2);
 
-    printf("Le PGCD de %d et %d est %d\n", V1, V2, pgcd);
+    printf("Le PGCD de %d et %d est %d\n", v1, v2, pgcd);
 
     return 0;
 }
