@@ -1,4 +1,3 @@
-//Ecrire une fonction qui calcule le pgcd de deux nombres initialisés dans le programme principal par l'utilisateur
 #include <stdio.h>
 int fonction(int v1, int v2) {
     while (v2 != 0) {

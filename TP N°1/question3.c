@@ -1,7 +1,3 @@
-// Un programme contient la déclaration suivante : Float liste[8]={1.6,-6.9,9.67,5.90,345,-23.6,78,34.6} ;
-//Ecrire une fonction de prototype float min (float* tab) qui renvoie le minimum de la liste.
-//Ecrire une fonction de prototype float max (float *tab) qui renvoie le maximum de la liste.
-
 #include <stdio.h>
 
 float min(float *tab) {

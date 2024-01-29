@@ -1,6 +1,3 @@
-//Ecrire une fonction qui calcule n ! c'est-à-dire : n != n*(n-1)*(n-2)*…3*2*1. avec n>=0 et 0 !=1
-
-
 #include <stdio.h>
 
 unsigned int fonction(unsigned int n) {

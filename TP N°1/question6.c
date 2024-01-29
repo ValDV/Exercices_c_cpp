@@ -1,7 +1,3 @@
-//Ecrire une fonction de prototype « void inverse(char *ch) » qui permette de convertir un texte,
-//c’est à dire qui inverse le contenu d’une chaine de caractères. la mettre en oeuvre dans main().
-// EX: il fait beau va donner -->  uaeb tiaf li
-
 #include <string.h>
 #include <stdio.h>
 

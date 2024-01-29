@@ -1,11 +1,3 @@
-//Il s'agit d'écrire quatre fonctions.
-//La première, « lire » permet d’entrer les valeurs dans un tableau dont la taille ne doit pas
-//dépasser 20 éléments. La seconde, affiche, permet d’afficher le tableau trié.
-//La troisième, « indice_min », doit, étant donnés deux indices d'un tableau, indiquer celui en
-//lequel est rangée la plus petite donnée.
-//La quatrième, « trier », doit obligatoirement utiliser la fonction indice_min pour trier le
-//tableau. Pour cela, on utilisera un "tri à bulle".
-
 #include <stdio.h>
 
 #define Taillemax 20
