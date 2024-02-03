@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 int main() {
-
-    char *chaine = 100;
+    char *chaine = NULL;
+    size_t taille = 0;
 
     printf("Entrez une chaine de caracteres : ");
-    scanf("%m[^\n]", &chaine);
+    getline(&chaine, &taille, stdin);
 
-    if (chaine == 100) {
+    if (chaine == NULL) {
         fprintf(stderr, "Erreur d'allocation de memoire.\n");
         return 1;
     }
 
-
     printf("Caracteres de la chaine avec leurs adresses :\n");
-    for (int i = 0; chaine[i] != '\0'; i++) {
+    for (size_t i = 0; chaine[i] != '\0'; i++) {
         printf("Caractere : %c\t Adresse : %p\n", chaine[i], (void *)&chaine[i]);
     }
 

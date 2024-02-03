@@ -7,7 +7,7 @@ int main() {
     float a, b, c;
     saisie(&a, &b, &c);
     float *racines = calcul(a, b, c);
-    printf("Les racines de l'equation sont : %.2f et %.2f\n", racines[0], racines[1]);
+    printf("Les racines de l'equation sont : %.2f + %.2fi et %.2f - %.2fi\n", racines[0], racines[1], racines[0], racines[1]);
 
     return 0;
 }
