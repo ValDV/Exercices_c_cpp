@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main() {
     FILE *fichierSource = fopen("source.txt", "r");
 
