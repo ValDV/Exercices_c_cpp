@@ -7,7 +7,7 @@ struct Point {
 
 int main() {
     struct Point points[15];
-
+    
     printf("Saisir les coordonnées des 15 points :\n");
     for (int i = 0; i < 15; ++i) {
         printf("Point %d :\n", i + 1);
