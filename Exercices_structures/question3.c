@@ -27,7 +27,6 @@ int main() {
     struct Point points[15];
 
     saisie(points, 15);
-
     affiche(points, 15);
 
     return 0;
