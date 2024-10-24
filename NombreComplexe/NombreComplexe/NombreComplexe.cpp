@@ -1,33 +1,5 @@
-#include <iostream>
+#include "NombreComplexe.h"
 
-class NombreComplexe {
-private:
-    double PartieReelle;
-    double PartieImaginaire;
-
-public:
-    NombreComplexe(double partieReelle, double partieImaginaire);
-
-    void affiche();
-    static NombreComplexe* saisie();
-    NombreComplexe addition(NombreComplexe& b);
-    NombreComplexe multiplication(NombreComplexe& b);
-};
-
-int main()
-{
-    NombreComplexe* complexe = NombreComplexe::saisie();
-    complexe->affiche();
-    NombreComplexe autreComplexe(2.0, 3.0);
-    NombreComplexe somme = complexe->addition(autreComplexe);
-    somme.affiche();
-    NombreComplexe produit = complexe->multiplication(autreComplexe);
-    produit.affiche();
-
-    delete complexe;
-
-    return 0;
-}
 NombreComplexe::NombreComplexe(double partieReelle, double partieImaginaire)
 {
     this->PartieReelle = partieReelle;
@@ -37,8 +9,8 @@ NombreComplexe::NombreComplexe(double partieReelle, double partieImaginaire)
 void NombreComplexe::affiche()
 {
     if (this->PartieReelle != 0) std::cout << this->PartieReelle;
-    if (this->PartieImaginaire < 0) std::cout << this->PartieImaginaire;
-    if (this->PartieImaginaire > 0) std::cout << "+" << this->PartieImaginaire;
+    if (this->PartieImaginaire < 0) std::cout << this->PartieImaginaire << "i";
+    if (this->PartieImaginaire > 0) std::cout << "+" << this->PartieImaginaire << "i";
     std::cout << std::endl;
 }
 

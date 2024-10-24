@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF88998C-0ECD-4417-8EF8-16C3D09ECDF5}|NombreComplexe\\NombreComplexe.vcxproj|C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF88998C-0ECD-4417-8EF8-16C3D09ECDF5}|NombreComplexe\\NombreComplexe.vcxproj|solutionrelative:NombreComplexe\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF88998C-0ECD-4417-8EF8-16C3D09ECDF5}|NombreComplexe\\NombreComplexe.vcxproj|C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\NombreComplexe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DF88998C-0ECD-4417-8EF8-16C3D09ECDF5}|NombreComplexe\\NombreComplexe.vcxproj|solutionrelative:NombreComplexe\\NombreComplexe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF88998C-0ECD-4417-8EF8-16C3D09ECDF5}|NombreComplexe\\NombreComplexe.vcxproj|C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\NombreComplexe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF88998C-0ECD-4417-8EF8-16C3D09ECDF5}|NombreComplexe\\NombreComplexe.vcxproj|solutionrelative:NombreComplexe\\NombreComplexe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\main.cpp",
+              "RelativeDocumentMoniker": "NombreComplexe\\main.cpp",
+              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\main.cpp",
+              "RelativeToolTip": "NombreComplexe\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-24T14:33:07.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NombreComplexe.h",
+              "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\NombreComplexe.h",
+              "RelativeDocumentMoniker": "NombreComplexe\\NombreComplexe.h",
+              "ToolTip": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\NombreComplexe.h",
+              "RelativeToolTip": "NombreComplexe\\NombreComplexe.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-24T14:31:51.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NombreComplexe.cpp",
               "DocumentMoniker": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\NombreComplexe.cpp",
               "RelativeDocumentMoniker": "NombreComplexe\\NombreComplexe.cpp",
               "ToolTip": "C:\\Users\\valen\\OneDrive\\Documents\\Projets_git\\Exercices_c_cpp\\NombreComplexe\\NombreComplexe\\NombreComplexe.cpp",
               "RelativeToolTip": "NombreComplexe\\NombreComplexe.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-24T06:53:32.395Z",
               "EditorCaption": ""
