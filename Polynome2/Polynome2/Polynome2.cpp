@@ -34,3 +34,29 @@ void Polynome2::affiche()
 	std::cout << std::endl;
 	return;
 }
+
+std::vector<NombreComplexe> Polynome < 2::solve()
+{
+	double delta = 0;
+	delta = this->b * this->b - 4 * this->a this->c;
+	if (delta > 0)
+	{
+		NombreComplexe x1(-this->b - sqrt(delta) / 2 * this->a, 0), x2(-this->b + sqrt(delta) / 2 * this->a, 0);
+		std::vector<double> results(x1, x2);
+		return results;
+	}
+	else if (delta == 0)
+	{
+		NombreComplexe x1(sqrt(delta) / 2 * this->a, 0);
+		std::vector<float> result (x1);
+		return result;
+	}
+	else
+	{
+		NombreComplexe x1(-this->b / 2 * this->a, -delta / 2 * this->a), x2(-this->b / 2 * this->a, -delta / 2 * this->a);
+		std::vector<double> results(x1, x2);
+		return results;
+	}
+	std::vector<double> results;
+	results.push_back(1);
+}
